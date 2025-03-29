@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merveille ARIKUNGOMA - Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <nav> 
+        <div id="name">
+            <div class="profile-img-container">
+                <div class="profile-border"></div>
+                <img src="assets/Photo 2 Merveille ARIKUNGOMA.jpeg" class="profile-img" alt="Merveille's Photo">
+            </div>
+            <header>Merveille ARIKUNGOMA</header>
+            <span><i>Développeuse Full-Stack</i></span>
+        </div>
+        <div class="AvailableCard">
+            <span class="status-dot"></span>
+          <marquee behavior="" direction="">  Available to work</marquee>
+        </div>
+        <div id="links">
+            <ul>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#experience">Expériences</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div id="social_media">
+            <a href="https://github.com/mervalar"><i class="fab fa-github"></i></a>
+            <a href="www.linkedin.com/in/arikungoma-merveille-053a57333"><i class="fab fa-linkedin"></i></a>
+            <button  type="button" class="btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#MyCv">Téléchargez mon cv</button>
+        </div>
+    </nav>
+
+<!-- Modal -->
+<div class="modal fade" id="MyCv" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+    <div class="modal-content">
+    <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <div class="modal-body">
+        <iframe src="assets/Capture d’écran du 2025-02-12 12-11-00 (1) (1).pdf" width="100%" height="600px"></iframe>
+    </div>
+    </div>
+</div>
+</div>
+       
+    <main>
+        <button onclick="toggleMode()" class="btn btn-outline-secondary mode-toggle">
+            <i class="fas fa-adjust"></i> Toggle Mode
+        </button>
+        <section id="about">
+            <div class="cards">
+                <header>À propos de moi</header>
+                Étudiante en Développement Web à l'<b class="text-success">Epitech</b>, je suis passionnée par la <b class="text-success">création</b> de solutions numériques alliant performance, design et innovation.  
+                Toujours <b class="text-success">curieuse</b> et en quête d’apprentissage, j’aime explorer de nouvelles technologies et relever des défis. <br><br>
+
+                Au fil de mon parcours, j’ai eu l’opportunité de travailler sur plusieurs projets, aussi bien en équipe qu’en autonomie. Grâce à ces expériences, j’ai développé des compétences en développement full-stack, en organisation et en résolution de problèmes. J’aime apprendre, m’adapter rapidement et proposer des solutions efficaces et créatives. <br><br>
+
+                Je recherche une <b class="text-success">alternance</b> à partir de septembre 2025 avec un rythme de 3 semaines en entreprise et 1 semaine à l’école, pour une durée de 12 mois.  
+                Si vous cherchez une collaboratrice motivée, rigoureuse et créative, n’hésitez pas à me contacter !
+
+            </div>
+        </section>
+        <!-- Projects -->
+        <section id="projects">
+            <div class="cards project_card" data-bs-toggle="modal" data-bs-target="#project1">
+                <header>My Twitter</header>
+                <div class="project_sample">
+                    <img src="assets/twitter.png" alt="Application Checklist">
+                    <p>
+                    Lors d’un projet de groupe inspiré de Twitter, j’ai renforcé mes compétences en <b class="text-success">développement full-stack</b>, <b class="text-success">gestion des états</b>, <b class="text-success">résolution de problèmes</b> et <b class="text-success">travail en équipe</b>.  
+                    </p>
+                    </div>
+                <div class="languages">
+                    <ul>
+                        <li>laravel</li>
+                        <li>React</li>
+                        <li>Bootstrap</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- project1 preview -->
+        <div class="modal fade" id="project1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl custom-modal">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <p>My twitter</p>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+                </div>
+                <div class="modal-body">
+                    <video src="assets/twitterv*.webm" width="100%" height="600px" autoplay muted loop></video>
+                </div>
+                </div>
+            </div>
+            </div>
+            <!-- project2 -->
+            <div class="cards project_card" data-bs-toggle="modal" data-bs-target="#project2">
+                <header>My meetic</header>
+                <div class="project_sample">
+                    <img src="assets/meetic.png" alt="Application Checklist">
+               <p>En développant une application de rencontre, j’ai acquis des compétences en <b class="text-success">architecture MVC</b>, <b class="text-success">programmation orientée objet</b>, <b class="text-success">animations et interactions dynamiques</b>, ainsi qu’en <b class="text-success">autonomie et gestion du temps</b>.  
+               </p>
+            </div>
+                <div class="languages">
+                    <ul>
+                        <li>PHP(MVC)</li>
+                        <li>MySQL</li>
+                        <li>JavaScript</li>
+                        <li>HTML/CSS</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- project2 preview -->
+        <div class="modal fade" id="project2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl custom-modal">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <p>My meetic</p>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+                </div>
+                <div class="modal-body">
+                    <video src="assets/meeticv.webm" width="100%" height="600px"></video>
+                </div>
+                </div>
+            </div>
+            </div>
+        
+            <!-- project3 -->
+            <div class="cards project_card" data-bs-toggle="modal" data-bs-target="#project3">
+                <header>My mini boot</header>
+                <div class="project_sample">
+                    <img src="assets/boot.png" alt="Application Checklist">
+                 <p>En concevant un framework CSS, j’ai appris à <b class="text-success">créer un design system</b>, à structurer un projet avec <b class="text-success">autonomie et rigueur</b>, et à optimiser le code pour plus de <b class="text-success">performance et rapidité</b>.  
+                 </p>
+            </div>
+                <div class="languages">
+                    <ul>
+                        <li>Sass</li>
+                        <li>Scss</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- project1 preview -->
+        <div class="modal fade" id="project3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl custom-modal">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <p>My mini boot</p>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+                </div>
+                <div class="modal-body">
+                    <video src="assets/bootv.webm" width="100%" height="600px" autoplay muted loop></video>
+                </div>
+                </div>
+            </div>
+            </div>
+
+            <div class="cards project_card" data-bs-toggle="modal" data-bs-target="#project4">
+                <header>My Cinema</header>
+                <div class="project_sample">
+                    <img src="assets/twitter.png" alt="Application Checklist">
+                  <p>En développant une interface d’administration pour un cinéma, j’ai géré la <b class="text-success">base de données</b>, la <b class="text-success">gestion des films, salles et abonnements</b>, ainsi que l’<b class="text-success">interface d’administration</b>.  
+                  </p>
+                </div>
+                <div class="languages">
+                    <ul>
+                        <li>PHP</li>
+                        <li>MySQL</li>
+                        <li>JavaScript</li>
+                        <li>Html</li>
+                        <li>Css</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- project1 preview -->
+        <div class="modal fade" id="project4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl custom-modal">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <p class="text-dark">My Cinema</p>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+                </div>
+                <div class="modal-body">
+                    <video src="assets/twitterv*.webm" width="100%" height="600px" autoplay muted loop></video>
+                </div>
+                </div>
+            </div>
+            </div>
+       
+
+            <div class="cards project_card" data-bs-toggle="modal" data-bs-target="#project5">
+                <header>DevQuiz</header>
+                <div class="project_sample">
+                    <img src="assets/DevQuiz.png" alt="Application Checklist">
+                    <p>
+                        En développant un quiz interactif en JavaScript, j’ai manipulé des <b class="text-success">fichiers JSON</b>, géré l’<b class="text-success">affichage dynamique</b> des questions et des réponses, et optimisé la <b class="text-success">gestion des événements</b>.  
+                    </p>
+
+                </div>
+                <div class="languages">
+                    <ul>
+                        <li>Javascript</li>
+                        <li>Html</li>
+                        <li>Css</li>
+                    </ul>
+                </div>
+            </div>
+     <!-- project1 preview -->
+     <div class="modal fade" id="project5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl custom-modal">
+            <div class="modal-content">
+            <div class="modal-header">
+                <p>Dev Quiz</p>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+            </div>
+            <div class="modal-body">
+                <video src="assets/DevQuizv.webm" width="100%" height="600px" autoplay muted loop></video>
+            </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="cards project_card" data-bs-toggle="modal" data-bs-target="#project6">
+            <header>Racing js</header>
+            <div class="project_sample">
+                <img src="assets/rancinjs.png" alt="Application Checklist">
+             <p>J’ai appris à gérer le <b class="text-success">stockage et la récupération des données</b> avec LocalStorage, à <b class="text-success">afficher des données dynamiques via des API</b> et à <b class="text-success">mettre à jour le DOM en temps réel</b>.  
+             </p>
+                
+            </div>
+            <div class="languages">
+                <ul>
+                    <li>PHP</li>
+                    <li>MySQL</li>
+                    <li>JavaScript</li>
+                    <li>Html</li>
+                    <li>Css</li>
+                </ul>
+            </div>
+        </div>
+           <!-- project1 preview -->
+     <div class="modal fade" id="project6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl custom-modal">
+            <div class="modal-content">
+            <div class="modal-header">
+                <p>Racing js</p>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+            </div>
+            <div class="modal-body">
+                <video src="assets/rancingjs.webm" width="100%" height="600px" autoplay muted loop></video>
+            </div>
+            </div>
+        </div>
+        </div>
+
+        </section>
+        <!-- Experiences -->
+        <section id="experience">
+            <div class="cards">
+                <header><span class="text-secondary">2023</span>Assistance utilisateur  | <span>Gisozi-Cyber Café | Rwanda</span></header>
+               
+                <ul class="list-unstyled ">
+                    <li class="d-flex align-items-center">
+                        <i class="bi bi-database text-success fs-6 me-2"></i> Assistance utilisateur
+                    </li>
+                    <li class="d-flex align-items-center">
+                        <i class="bi bi-globe text-success fs-6 me-2"></i> Maintenance Réseaux
+                    </li>
+                    <li class="d-flex align-items-center">
+                        <i class="bi bi-arrow-repeat text-success fs-6 me-2"></i> Installation de logiciels
+                    </li>
+
+                </ul>               
+     <div class="languages">
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="cards">
+                <header><span class="text-secondary">2024</span>Stagiaire en base de données |  <span>Sanlam Vie | Rwanda</span></header>
+                <ul class="list-unstyled">
+                    <li class="d-flex align-items-center">
+                        <i class="bi bi-diagram-3 text-success fs-6 me-2"></i> Paramétrage / Configuration
+                    </li>
+                    <li class="d-flex align-items-center">
+                        <i class="bi bi-braces text-success fs-6 me-2"></i> Mises à jour
+                    </li>
+                    <li class="d-flex align-items-center">
+                        <i class="bi bi-stars text-success fs-6 me-2"></i> Dépannage
+                    </li>
+                </ul>        
+            <div class="languages">
+                    <ul>
+                        <li>PHP</li>
+                        <li>MySQL</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+     <!-- Contact Form -->
+<section id="contact">
+    <div class="container p-4">
+        <header>Nous contacter</header>
+        <form id="emailForm" class=" p-4 rounded">
+            <div class="form-floating mb-3">
+                <input type="email" class="form-control contact-input" id="email" placeholder="name@example.com" required>
+                <label for="email">Email address</label>
+            </div>
+            
+            <div class="form-floating mb-3">
+                <textarea class="form-control contact-input" placeholder="Leave a comment here" id="message" style="height: 100px" required></textarea>
+                <label for="message" >Comments</label>
+            </div>
+    <!-- Bootstrap Submit Button -->
+    <div class="text-center">
+        <button type="submit" class="btn btn-xl emailbtn">Envoyer un message</button>
+    </div>
+</form>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script src="script.js"></script>
+<script>
+    // Initialize EmailJS with your User ID
+    emailjs.init("rhEFZSPTRbqjTQMT5"); // Replace with your EmailJS User ID
+    
+    // Handle form submission
+    document.getElementById("emailForm").addEventListener("submit", function(event) {
+        event.preventDefault();  // Prevent form default submission
+
+        // Send email using EmailJS
+        emailjs.send("service_69nri2j", "template_eiazwgx", {
+            email: document.getElementById("email").value,
+            message: document.getElementById("message").value
+        }).then(function(response) {
+            alert("Email sent successfully!");
+        }, function(error) {
+        console.error("Failed to send email:", error);  // Log error to the console for debugging
+        alert("Failed to send email. Please check the console for more details.");
+    });
+    });
+</script>
+<script>document.addEventListener('DOMContentLoaded', () => {
+    document.addEventListener('mousemove', (e) => {
+        // Remove any existing shadows
+        const existingShadows = document.querySelectorAll('.mouse-shadow');
+        existingShadows.forEach(shadow => shadow.remove());
+
+        // Create new shadow
+        const shadow = document.createElement('div');
+        shadow.classList.add('mouse-shadow');
+        
+        // Set position
+        shadow.style.position = 'fixed';
+        shadow.style.left = `${e.clientX}px`;
+        shadow.style.top = `${e.clientY}px`;
+        
+        // Append to body
+        document.body.appendChild(shadow);
+
+        // Optional: Remove after a short time
+        setTimeout(() => {
+            shadow.remove();
+        }, 300);
+
+    });
+});</script>
+
+<script>
+    // Check user's preference or last mode
+    document.addEventListener('DOMContentLoaded', () => {
+        const savedMode = localStorage.getItem('portfolio-mode');
+        if (savedMode === 'light') {
+            document.body.classList.add('light-mode');
+        }
+    });
+
+    function toggleMode() {
+        document.body.classList.toggle('light-mode');
+        const currentMode = document.body.classList.contains('light-mode') ? 'light' : 'dark';
+        localStorage.setItem('portfolio-mode', currentMode);
+    }
+</script>
+
+</body>
+</html>
